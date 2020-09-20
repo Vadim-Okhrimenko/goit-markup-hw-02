@@ -14,6 +14,7 @@
   --accent-color: #2196f3;
   --main-color: #212121;
   --light-color: #ffffff;
+  --secondary-main-color: #757575;
 }
 
 body {
@@ -82,7 +83,7 @@ body {
   line-height: 1.143;
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color: var(--secondary-main-color);
 }
 
 .header-tel-link:hover,
@@ -128,8 +129,7 @@ body {
   list-style: none;
 }
 
-.about-list-subtitle,
-.team-list-subtitle {
+.about-list-subtitle {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.143;
@@ -138,13 +138,28 @@ body {
   color: var(--main-color);
 }
 
-.about-text,
-.team-text {
+.team-list-subtitle {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.about-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-main-color);
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+  color: var(--secondary-main-color);
 }
 
 /* ==========  END  ABOUT   ==========*/
@@ -169,7 +184,7 @@ body {
   line-height: 1.714;
 
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--light-color);
 }
 
 .footer-logo-color {
@@ -182,7 +197,7 @@ body {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: #ffffff99;
 }
 
 /* ==========  END  FOOTER   ==========*/
@@ -222,7 +237,7 @@ body {
   line-height: 1.875;
   letter-spacing: 0.03em;
 
-  color: #757575;
+  color: var(--secondary-main-color);
 }
 
 /* ========== END WORK PORTFOLIO  ==========*/
